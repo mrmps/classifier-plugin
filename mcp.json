@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "classifier": {
+      "type": "streamable-http",
+      "url": "https://classifier.dev/mcp"
+    },
+    "classifier-docs": {
+      "type": "streamable-http",
+      "url": "https://classifier.dev/mcp/docs"
+    }
+  }
+}
